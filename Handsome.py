@@ -187,7 +187,7 @@ response = requests.get("https://api.ipify.org?format=json")
 ipadd = response.json()["ip"]    
 
 #------------------[ LOGO-LAKNAT ]-----------------#
-logo=("""\033[1;32m  	
+logo = ("""\033[1;32m]""") 	
     ___ ___    _____    _______  ______________.___.
  /   |   \  /  _  \   \      \ \_   ___ \__  |   |
 /    ~    \/  /_\  \  /   |   \/    \  \//   |   |
