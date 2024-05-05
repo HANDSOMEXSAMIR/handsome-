@@ -220,10 +220,10 @@ def login123():
 	banner()
 	info()
     
-	print("""\x1b[38;5;46m[\x1b[1;97m1\x1b[38;5;46m]\x1b[1;97m LOGIN USING COOKIE""")
-	print("""\x1b[38;5;46m[\x1b[1;97m2\x1b[38;5;46m]\x1b[1;97m FILE CLONE""")
-	print("""\x1b[38;5;46m[\x1b[1;97m3\x1b[38;5;46m]\x1b[1;97m CONTACT ADMIN""")
-	print("""\x1b[38;5;46m[\x1b[1;97m0\x1b[38;5;46m]\x1b[1;97m EXIT TOOL """)
+	print LOGIN USING COOKIE
+	print FILE CLONE
+	print CONTACT ADMIN
+	print EXIT TOOL 
 	linex()
 	lgmt = input('CHOOSE : ')
 	if lgmt == '1':
