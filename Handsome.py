@@ -323,11 +323,11 @@ def menu(my_name,my_id):
 	info()
 	print("[\u001b[32m•\033[1;37m] TODAYS DATE : "+date)
 	linex()
-	print(f"""[\u001b[32m1\033[1;37m] CRACK PUBLIC       """)
-	print(f"""[\u001b[32m2\033[1;37m] CRACK FILE        """)
-	print(f"""[\u001b[32m3\033[1;37m] CHECK RESULTS      """)
-	print(f"""[\u001b[32m4\033[1;37m] CONTACT ADMIN""")
-	print(f"""[\u001b[32m5\033[1;37m] EXIT TOOL""")
+	print CRACK PUBLIC     
+	print CRACK FILE       
+	print CHECK RESULTS      
+	print CONTACT ADMIN
+	print EXIT TOOL
 	linex()
 	_____cowok__pink_____ = input(' CHOOSE : ')
 	if _____cowok__pink_____ in ['1']:
